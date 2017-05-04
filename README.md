@@ -9,6 +9,10 @@ Detail on [Makestro's Shop](https://shop.makestro.com).
 
 ![LoRa Raspberry Pi Hat top view](https://shop.makestro.com/wp-content/uploads/sites/2/2016/08/loraraspihat1.jpg)
 
+![LoRa Raspberry Pi Hat with antenna](https://github.com/dycodex/LoRa-Raspberry-Pi-Hat/raw/master/assets/pihat11.jpg)
+
+![LoRa Raspberry Pi Hat with antenna](https://github.com/dycodex/LoRa-Raspberry-Pi-Hat/raw/master/assets/pihat12.jpg)
+
 ## Features
 
 * Frequency band of 868 MHz/433 MHz (factory pre-configured).
@@ -44,7 +48,7 @@ Note that when you're using LoRaWAN, you need to plug the jumper to the GPIO8 an
 
 * [Simple LoRa Gateway](https://github.com/dycodex/Simple-LoRa-Gateway)
 * [Single Channel Packet Forwarder (LoRaWAN)](https://github.com/andriyadi/single_chan_pkt_fwd).
-* [RadioHead examples by hallard](https://github.com/hallard/RadioHead). You can check for the code at the `examples/raspi/rf95` directory.
+* [RadioHead by hallard](https://github.com/hallard/RadioHead). You can check for the code at the `examples/raspi/rf95` directory.
 
 ### Use Cases Example & Tutorials
 
