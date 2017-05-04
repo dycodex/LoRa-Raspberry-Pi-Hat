@@ -28,3 +28,26 @@ Detail on [Makestro's Shop](https://shop.makestro.com).
 ## Pinout
 
 ![LoRa Raspberry Pi pinout](https://shop.makestro.com/wp-content/uploads/2016/08/lora_pinout-01_1024.jpg)
+
+## Getting Started
+
+Before you use the board, you'll have to enable SPI from raspi-config first. See [this link](https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial) for the tutorial.
+
+Then, install the bcm2835 library on your Raspberry Pi. See [this link](http://www.airspayce.com/mikem/bcm2835/) for tutorial and library source code.
+
+bcm2835 is required for code examples that we're about to show you.
+
+Note that when you're using LoRaWAN, you need to plug the jumper to the GPIO8 and NSS header.
+
+
+### Code examples
+
+* [Simple LoRa Gateway](https://github.com/dycodex/Simple-LoRa-Gateway)
+* [Single Channel Packet Forwarder (LoRaWAN)](https://github.com/andriyadi/single_chan_pkt_fwd).
+* [RadioHead examples by hallard](https://github.com/hallard/RadioHead). You can check for the code at the `examples/raspi/rf95` directory.
+
+### Use Cases Example & Tutorials
+
+* [PatientCare](https://www.hackster.io/andri/patientcare-8ca30b)
+* [Publishing Data from Node to Bakckend via LoRaWAN](https://learn.makestro.com/publishing-data-from-node-to-backend-via-lorawan/)
+
